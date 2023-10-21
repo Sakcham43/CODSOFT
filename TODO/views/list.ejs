@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box1" id="heading">
+        <h1><%= KindOfDay %></h1>
+    </div>
+    <div class="box">
+        <ul>
+            <li>Buy Food</li>
+            <li>cook Food</li>
+            <li>Eat Food</li>
+            <% for(let i=0; i< newListItems.length; i++){ %>
+                <li><%= newListItems[i] %></li>
+            <% } %>
+            
+            <form  action="/" method="post">
+                <div class="item">
+                    <div class="round">
+                        <input type="text" name="newItem" autocomplete="off">
+                        <button id="b" type="submit"><span id="s2">+</span></button>
+                    </div>
+                </div>
+        
+            </form>
+        </ul>
+    </div>
+    
+</body>
+</html>

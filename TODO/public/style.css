@@ -1,0 +1,84 @@
+body{
+    background-image: url('todo.jpg');
+    background-repeat: no-repeat;
+    background-size: 1550px 900px;
+}
+.html{
+    background-color:#E4E9FD ;
+}
+h1{
+    color: #fac107;
+    padding: 10px;
+}
+.box{
+    margin-bottom: 9rem;
+    max-width: 400px;
+    margin-left: 590px ;
+    margin-top:-20px;
+    border-radius: 3px;
+   background-color: white;
+
+}
+.box1{
+    max-width: 400px;
+    margin-left: 590px ;
+    margin-top:130px;
+    border-radius: 5px;
+    background-color: white;
+    background-repeat: no-repeat;
+    height:100px;
+  
+}
+
+#heading{
+    background-color:white;
+    text-align: center;
+    margin-left: 590px;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+
+button
+{   margin-top: 4px;
+    margin-bottom: 4px;
+    height: 90px;
+    background-color: rgb(245, 182, 65);
+    border: none;
+    border-radius: 10%;
+   
+    text-align: center;
+    justify-content: space-between;
+  
+    font-size: 20px;
+    margin-right: 50px;
+    
+    cursor: pointer;
+    color: white;
+ }
+ #s2
+ {
+    font-size: 90px;
+ }
+ form.item{
+     text-align: center;
+    
+ }
+
+input[type="text"]{
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    border: solid black;
+    background: gainsboro;
+    font-size: 30px;
+    font-weight: 200;
+    margin-left: -20px;
+    width: 313px;
+    margin-top: 10px;
+}
+ .round {
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+  }
